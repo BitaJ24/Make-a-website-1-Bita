@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1.2px solid #ABABAB;
+    background-color: white;
+    padding: 40px 0;
+    position: sticky;
+    top: 0;
+}
+header>p{
+    font-size: 20px;
+}
+.red:hover{
+    color: rgb(219, 40, 40);
+}
+.one{
+    border: 2px solid #ABABAB;
+    margin-top: 100px;
+    width: 50rem;
+    height: 15rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 70px auto;
+    padding: 1rem;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+section>div{
+    width: 15rem;
+    height: 20rem;
+    background-color: #8F8F8F;
+    border-radius: 5px;
+}
+.more{
+    width: 5rem;
+    height: 3rem;
+    background-color: #FF3853;
+    border-radius: 5px;    
+}
+.black{
+    color: black;
+}
+.aaa{
+    text-align: center;
+    font-size: 20px;
+    padding: 7px; 
+}
+.green{
+    width: 8rem;
+    height: 8rem;
+    background-color: #6bbf56;
+    border-radius: 100% 0 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  inset 0 4px 3px 1px #97D188,2px 2px 5px rgb(94, 86, 86);
+}
+.green>p{
+    font-size: 20px;
+}
+.pic-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.bbb{
+    margin-bottom: -30px;
+    font-size: 20px;
+}
+.pic-two>img{
+    width: 7rem;
+    height: 7rem;
+}
+.pic-three>img{
+    width: 7rem;
+    height: 7rem;
+    transform:skew(10deg)  rotate(10deg);
+    box-shadow: 5px 0 2px black;
+    border-radius: 5px;
+}
