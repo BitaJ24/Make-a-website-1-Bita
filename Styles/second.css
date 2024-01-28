@@ -11,6 +11,8 @@ header{
     padding: 40px 0;
     position: sticky;
     top: 0;
+    flex-wrap: wrap;
+    z-index: 1;
 }
 header>p{
     font-size: 20px;
@@ -28,6 +30,8 @@ section{
     display: flex;
     justify-content: space-evenly;
     margin: 10px auto;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 img{
     width: 6rem;

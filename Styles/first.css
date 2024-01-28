@@ -11,6 +11,9 @@ header{
     padding: 40px 0;
     position: sticky;
     top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
 }
 header>p{
     font-size: 20px;
@@ -33,6 +36,8 @@ header>p{
 section{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 section>div{
     width: 15rem;
